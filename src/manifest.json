@@ -1,0 +1,10 @@
+{
+  "name": "Turntable.fm Helper",
+  "version": "0.3",
+  "content_scripts": [
+    {
+      "matches": ["http://turntable.fm/*", "http://www.turntable.fm/*"],
+      "js": ["helper.js"]
+    }
+  ]
+}
